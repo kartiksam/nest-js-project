@@ -11,6 +11,9 @@ export class User {
     email: String;
 
     @Prop()
+    password: String;
+
+    @Prop()
     age: number;
 
     @Prop()
